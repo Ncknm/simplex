@@ -1,0 +1,162 @@
+/*МОБИЛЬНЫЕ УСТРОЙСТВА 768-960px*/
+
+@media screen and (max-width: 960px) {
+	.nav-menu {
+		display: block;
+	}
+	.menu-button {
+		display: none;
+	}
+	.slider-item {
+		font-size: 55px;
+	}
+	h2 {
+		line-height: 48px;
+		font-size: 40px;
+	}
+	.person-card, .services-card {
+		margin-bottom: 30px;
+	}
+	.clear {
+		margin-top: 60px;
+	}
+	.clear1 {
+		margin-top: 0;
+	}
+	.client-card {
+		color: #fff;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+}
+
+
+
+/*МОБИЛЬНЫЕ УСТРОЙСТВА 0-768px*/
+
+@media screen and (max-width: 767px) {
+	#header {
+		position: fixed;
+		padding-bottom: 15px;
+	}
+	.menu-button {
+		color: #fff;
+		display: block;
+	}
+	.hover {
+		display: none;
+	}
+	.nav-menu-item,
+	.nav-menu {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.header-logo-link {
+		padding-top: 17px;
+	}
+
+	.nav-menu-item {
+		/*border-bottom: 1px solid #fff;*/
+	}
+
+	.nav-menu {
+		display: none;
+	}
+
+	.nav-menu-item>a,
+	.nav-menu-item>a:active,
+	.nav-menu-item>a:hover,
+	.nav-menu-item>a:focus {
+		padding: 8px;
+		font-size: 19px;
+	}
+	.slider-item {
+		font-size: 40px;
+	}
+	.slick-dots>li {
+		width: 20px;
+		height: 20px;
+	}
+	.socials {
+		margin-top: 66px;
+	}
+	.social-link {
+		width: 50px;
+		height: 45px;
+		display: inline-block;
+	}
+	.socials li, .socials li+li, .socials li+li+li, .socials li+li+li+li {
+		background-size: cover;
+	}
+	.socials li+li {
+		background-position: -63px 0;
+	}
+	.socials li+li+li {
+		background-position: -126px 0;
+	}
+	.socials li+li+li+li {
+		background-position: -190px 0;
+	}
+	h2 {
+		line-height: 42px;
+		font-size: 33px;
+	}
+	#first {
+		padding-bottom: 100px;
+	}
+	#second, #third, #four, #fifth {
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+	.title-head p {
+		font-size: 17px;
+		margin: 25px 0 50px;
+	}
+	.person-card, .services-card {
+		margin-bottom: 30px;
+	}
+	.clear {
+		margin-top: 60px;
+	}
+	.clear1 {
+		margin-top: 0;
+	}
+	.client-card {
+		color: #fff;
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	#fifth {
+		text-align: center;
+	}
+	.name, .email {
+		margin-top: 10px;
+		width: 100%;
+	}
+	h3 {
+		margin-top: 30px;
+	}
+	dt {
+		min-width: 85px;
+	}
+	.nav-link:after {
+		display: block;
+		position: absolute;
+		height: 2px;
+		width: 88px;
+		background: #fff;
+		content: ' ';
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 36px
+	}
+	#upbutton {
+		height: 41px;
+		width: 41px;
+	}
+	.modal-content {
+		width: 275px;
+	}
+}
